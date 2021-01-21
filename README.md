@@ -1,8 +1,8 @@
-#ReactVideos
+# ReactVideos
 
-##Vamos a realizar un pequeño proyecto donde crearemos una pequeña App de Videos
+## Vamos a realizar un pequeño proyecto donde crearemos una pequeña App de Videos
 
-###USAREMOS:
+### USAREMOS:
 
 - React
 - Babel
