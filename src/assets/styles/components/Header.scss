@@ -55,7 +55,14 @@
       img {
         margin-right: 0.8rem;
         width: 4rem;
+        border-radius: 100%;
+        object-fit: cover;
       }
     }
   }
+}
+
+.isLogin,
+.isRegister {
+  background-color: red;
 }

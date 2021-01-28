@@ -1,7 +1,10 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
   margin: 0;
-  font-family: 'Muli', sans-serif;
-  background: #8f57fd;
+  font-family: $theme-font;
+  background: $main-color;
 }
 
 html {
@@ -9,10 +12,30 @@ html {
   font-size: 62.5%; /* Now 10px = 1rem! */
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 ::placeholder {
   color: white;
+}
+
+.home {
+  background-image: linear-gradient(#8f57fd, #21c08b, #8f57fd);
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Muli", sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0;
 }
